@@ -2,6 +2,7 @@
 import React from 'react';
 /** COMPONENTES INTERNOS */
 import WeddingCountdown from '@/components/WeddingCountdown';
+import ComponenteNovios from '@/components/ComponenteNovios';
 
 const page = () => {
 
@@ -24,11 +25,14 @@ const page = () => {
 
       </div>
 
-      <div className='row' style={{ backgroundImage: "url('/fondo_image_2.png')", backgroundSize: 'cover', overflow: 'hidden', backgroundRepeat: 'no-repeat', backgroundPosition: 'center center', height: '40vh' }} >
-        <div className='col d-flex justify-content-center '>
-          <WeddingCountdown weddingDate={weddingDate} />
-        </div>
+      <div className='row' style={{ backgroundImage: "url('/fondo_image_2.png')", backgroundSize: 'cover', overflow: 'hidden', backgroundRepeat: 'no-repeat', backgroundPosition: 'center center', }} >
+        <WeddingCountdown weddingDate={weddingDate} />
       </div>
+
+      <div className='row' style={{ backgroundImage: "url('/fondo_image_2.png')", backgroundSize: 'cover', overflow: 'hidden', backgroundRepeat: 'no-repeat', backgroundPosition: 'center center', }} >
+        <ComponenteNovios />
+      </div>
+
     </div>
   );
 };

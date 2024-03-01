@@ -21,3 +21,13 @@
 .countdown-item p {
     margin: 0;
 }
+
+.space-vertical-title {
+    padding-top: 10vh;
+    padding-bottom: 4vh;
+}
+
+.space-vertical-timer {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}

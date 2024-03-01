@@ -30,19 +30,22 @@ const WeddingCountdown = ({ weddingDate }) => {
 
     return (
         <div className="wedding-countdown row" >
-            <div className="countdown-item col-md-3 col-6">
+            <div className="countdown-item col-md-12 col-12 space-vertical-title">
+                <h1> <strong> YA SÓLO FALTAN </strong> </h1>
+            </div>
+            <div className="countdown-item col-md-3 col-6  space-vertical-timer">
                 <span>{timeRemaining.days}</span>
                 <p>Días</p>
             </div>
-            <div className="countdown-item col-md-3 col-6">
+            <div className="countdown-item col-md-3 col-6 space-vertical-timer">
                 <span>{timeRemaining.hours}</span>
                 <p>Horas</p>
             </div>
-            <div className="countdown-item col-md-3 col-6">
+            <div className="countdown-item col-md-3 col-6 space-vertical-timer">
                 <span>{timeRemaining.minutes}</span>
                 <p>Minutos</p>
             </div>
-            <div className="countdown-item col-md-3 col-6">
+            <div className="countdown-item col-md-3 col-6 space-vertical-timer">
                 <span>{timeRemaining.seconds}</span>
                 <p>Segundos</p>
             </div>
