@@ -1,14 +1,17 @@
 .wedding-countdown {
     display: flex;
     justify-content: space-around;
-    font-family: 'Roboto', sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.5rem;
+}
+
+.text-titulo {
     color: #657150;
-    width: 100vw;
 }
 
 .countdown-item {
     text-align: center;
+    font-style: italic;
 }
 
 .countdown-item span {

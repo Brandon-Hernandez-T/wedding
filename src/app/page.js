@@ -25,11 +25,11 @@ const page = () => {
 
       </div>
 
-      <div className='row' style={{ backgroundImage: "url('/fondo_image_2.png')", backgroundSize: 'cover', overflow: 'hidden', backgroundRepeat: 'no-repeat', backgroundPosition: 'center center', }} >
+      <div>
         <WeddingCountdown weddingDate={weddingDate} />
       </div>
 
-      <div className='row' style={{ backgroundImage: "url('/fondo_image_2.png')", backgroundSize: 'cover', overflow: 'hidden', backgroundRepeat: 'no-repeat', backgroundPosition: 'center center', }} >
+      <div className='row d-flex align-items-center justify-content-center text-center ' style={{ backgroundImage: "url('/fondo_image_2.png')", backgroundSize: 'cover', overflow: 'hidden', backgroundRepeat: 'no-repeat', backgroundPosition: 'center center', }} >
         <ComponenteNovios />
       </div>
 
