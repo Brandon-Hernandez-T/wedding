@@ -3,6 +3,8 @@ import React from 'react';
 /** COMPONENTES INTERNOS */
 import WeddingCountdown from '@/components/WeddingCountdown';
 import ComponenteNovios from '@/components/ComponenteNovios';
+import ComponentePadrinos from '@/components/ComponentePadrinos';
+import ComponentesHonor from '@/components/ComponentesHonor';
 
 const page = () => {
 
@@ -30,6 +32,14 @@ const page = () => {
 
       <div className='row d-flex align-items-center justify-content-center text-center ' style={{ backgroundImage: "url('/fondo_image_2.png')", backgroundSize: 'cover', overflow: 'hidden', backgroundRepeat: 'no-repeat', backgroundPosition: 'center center', }} >
         <ComponenteNovios />
+      </div>
+      
+      <div className='row d-flex align-items-center justify-content-center text-center ' style={{ backgroundImage: "url('/fondo_image_2.png')", backgroundSize: 'cover', overflow: 'hidden', backgroundRepeat: 'no-repeat', backgroundPosition: 'center center', }} >
+        <ComponentePadrinos />
+      </div>
+      
+      <div className='row d-flex align-items-center justify-content-center text-center ' style={{ backgroundImage: "url('/fondo_image_2.png')", backgroundSize: 'cover', overflow: 'hidden', backgroundRepeat: 'no-repeat', backgroundPosition: 'center center', }} >
+        <ComponentesHonor />
       </div>
 
     </div>

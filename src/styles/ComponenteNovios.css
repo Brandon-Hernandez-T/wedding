@@ -1,5 +1,6 @@
 .space-vertical {
-    padding-top: 8vh;
+    padding-top: 6vh;
+    padding-bottom: 4vh;
 }
 
 .space-horizontal {
@@ -10,6 +11,12 @@
 .textos-cursiva {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #2d2d2d;
+    font-style: italic;
+}
+
+.textos-cursiva-simbolos {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ca3749;
     font-style: italic;
 }
 
