@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "B&J",
+  title: "B&J | Nuestra Boda",
   description: "Nos casamos!! B&J"
 };
 

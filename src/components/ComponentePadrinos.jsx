@@ -26,7 +26,7 @@ const ComponentePadrinos = () => {
                 <h3 className='textos-cursiva texto-nombres-novios' > Lazo </h3>
                 <h4 className='textos-cursiva' >Jorge Diaz Banda</h4>
                 <h4 className='textos-cursiva-simbolos' >&</h4>
-                <h4 className='textos-cursiva' >Lupe</h4>
+                <h4 className='textos-cursiva' >Guadalupe Escalona</h4>
             </div>
             
             <div className="col-md-4 col-6 space-vertical-title">
@@ -37,20 +37,20 @@ const ComponentePadrinos = () => {
             </div>
             <div className="col-md-4 col-6 space-vertical-title">
                 <h3 className='textos-cursiva texto-nombres-novios' > Biblia y Rosario </h3>
-                <h4 className='textos-cursiva' >Chiquis</h4>
+                <h4 className='textos-cursiva' >Esther Zarco Ramírez</h4>
                 <h4 className='textos-cursiva-simbolos' >&</h4>
-                <h4 className='textos-cursiva' >Esther</h4>
+                <h4 className='textos-cursiva' >Ma. Rosio Zarco Ramírez </h4>
             </div>
             <div className="col-md-4 col-6 space-vertical-title">
                 <h3 className='textos-cursiva texto-nombres-novios' > Cojines </h3>
-                <h4 className='textos-cursiva' >Irma</h4>
+                <h4 className='textos-cursiva' >Irma Díaz Banda</h4>
                 <h4 className='textos-cursiva-simbolos' >&</h4>
-                <h4 className='textos-cursiva' >Hector</h4>
+                <h4 className='textos-cursiva' >Héctor Casares</h4>
             </div>
             
             <div className="col-md-4 col-6 space-vertical-title">
                 <h3 className='textos-cursiva texto-nombres-novios' > Foto de Estudio </h3>
-                <h4 className='textos-cursiva' >Ruth</h4>
+                <h4 className='textos-cursiva' >Ruth Martínez Zarco </h4>
                 <h4 className='textos-cursiva-simbolos' >&</h4>
                 <h4 className='textos-cursiva' >Herver</h4>
             </div>
@@ -70,8 +70,8 @@ const ComponentePadrinos = () => {
             <div className="col-md-4 col-6 space-vertical-title">
                 <h3 className='textos-cursiva texto-nombres-novios' > Copas </h3>
                 <h4 className='textos-cursiva' >Yahir Diaz Ubence</h4>
-                {/* <h4 className='textos-cursiva-simbolos' >&</h4>
-                <h4 className='textos-cursiva' >Herver</h4> */}
+                <h4 className='textos-cursiva-simbolos' >&</h4>
+                <h4 className='textos-cursiva' >Sayumi Canales Cruz</h4>
             </div>
             <div className="col-md-4 col-6 space-vertical-title">
                 <h3 className='textos-cursiva texto-nombres-novios' > Mesa de Dulces</h3>
