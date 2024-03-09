@@ -6,6 +6,8 @@ import ComponenteNovios from '@/components/ComponenteNovios';
 import ComponentePadrinos from '@/components/ComponentePadrinos';
 import ComponentesHonor from '@/components/ComponentesHonor';
 import ComponenteUbicaciones from '@/components/ComponenteUbicaciones';
+import SectionWithFade from '@/components/SectionWhitFade';
+import { Fade, Bounce, Pop, Swing } from "react-swift-reveal";
 
 const page = () => {
 
@@ -16,36 +18,40 @@ const page = () => {
       <div className="row" style={{ backgroundImage: "url('/fondo_image_3.png')", backgroundSize: 'cover', overflow: 'hidden', backgroundRepeat: 'no-repeat', backgroundPosition: 'center center', height: '100vh' }}>
 
         <div className="col-md-7 d-flex justify-content-center align-items-center" >
-          <div style={{ textAlign: 'center' }}>
-            <img src="/nombre_banner_1.png" alt="Imagen" width="100%" height="auto" />
-          </div>
+          <Fade duration={1000} delay={500} distance="30px">
+            <div style={{ textAlign: 'center' }}>
+              <img src="/nombre_banner_1.png" alt="Imagen" width="100%" height="auto" />
+            </div>
+          </Fade>
         </div>
 
         <div className="col-md-5 d-flex justify-content-center align-items-center">
-          <img src="/branyjacque_banner_4.png" alt="Imagen" width="100%" height="auto" />
+          <Pop duration={1000} delay={500} distance="30px">
+            <img src="/branyjacque_banner_4.png" alt="Imagen" width="100%" height="auto" />
+          </Pop>
         </div>
 
       </div>
 
-      <div style={{ backgroundColor: 'white' }} >
+      <SectionWithFade isWhite={true}>
         <WeddingCountdown weddingDate={weddingDate} />
-      </div>
+      </SectionWithFade>
 
-      <div className='row d-flex align-items-center justify-content-center text-center ' style={{ backgroundImage: "url('/fondo_image_2.png')", backgroundSize: 'cover', overflow: 'hidden', backgroundRepeat: 'no-repeat', backgroundPosition: 'center center', }} >
+      <SectionWithFade>
         <ComponenteNovios />
-      </div>
+      </SectionWithFade>
 
-      <div className='row d-flex align-items-center justify-content-center text-center ' style={{ backgroundImage: "url('/fondo_image_2.png')", backgroundSize: 'cover', overflow: 'hidden', backgroundRepeat: 'no-repeat', backgroundPosition: 'center center', }} >
+      <SectionWithFade>
         <ComponentesHonor />
-      </div>
+      </SectionWithFade>
 
-      <div className='row d-flex align-items-center justify-content-center text-center '>
+      <SectionWithFade isWhite={true} >
         <ComponenteUbicaciones />
-      </div>
+      </SectionWithFade>
 
-      <div className='row d-flex align-items-center justify-content-center text-center ' style={{ backgroundImage: "url('/fondo_image_2.png')", backgroundSize: 'cover', overflow: 'hidden', backgroundRepeat: 'no-repeat', backgroundPosition: 'center center', }} >
+      <SectionWithFade>
         <ComponentePadrinos />
-      </div>
+      </SectionWithFade>
 
     </div>
   );
