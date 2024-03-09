@@ -4,7 +4,7 @@ import '../styles/ComponenteNovios.css';
 const ComponenteNovios = () => {
     return (
         <>
-            <div className='linea-divisora' />
+            
             <div className='col-12 space-vertical space-horizontal'>
                 <h2 className='textos-cursiva' > <strong> CONTIGO SIEMPRE </strong> </h2>
                 <p className='textos-cursiva space-vertical h4' >
@@ -24,7 +24,6 @@ const ComponenteNovios = () => {
                 <h3 className='textos-cursiva' > Novio </h3>
                 <h2 className='textos-cursiva texto-nombres-novios' > Brandon Hernandez Torres </h2>
             </div>
-            <div className='linea-divisora' />
         </>
     );
 };

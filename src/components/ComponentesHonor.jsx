@@ -9,7 +9,7 @@ const ComponenteHonor = () => {
                 <img src="/damas-honor.png" alt="Imagen" width="33%" height="auto" />
                 <h1 className='text-titulo' > <strong> DAMAS DE HONOR </strong> </h1>
                 <h4 className='textos-cursiva' >Sarahi Lehilany Hernandez Torres</h4>
-                <h4 className='textos-cursiva' >Ruby</h4>
+                <h4 className='textos-cursiva' >Ruby Ramos Jiménez</h4>
                 <h4 className='textos-cursiva' >Melani Ubence Flores</h4>
                 <h4 className='textos-cursiva' >Nayeli Fragoso Zarco</h4>
                 <h4 className='textos-cursiva' >Noemi Martínez Zarco</h4>

@@ -3,11 +3,30 @@
     justify-content: space-around;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.5rem;
+    padding-bottom: 8vh;
 }
 
 .text-titulo {
     color: #657150;
+    font-style: italic;
 }
+
+.decorated-text {
+    position: relative;
+}
+
+.decorated-text:after {
+    content: '';
+    position: absolute;
+    left: 20;
+    bottom: 0;
+    width: 50%;
+    height: 2px;
+    /* Grosor de la línea decorativa */
+    background-color: #FFD700;
+    /* Color de la línea decorativa */
+}
+
 
 .countdown-item {
     text-align: center;

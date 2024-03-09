@@ -33,4 +33,14 @@
     height: 5px;
     background-color: #657150;
     width: 100%;
-  }
+}
+
+.linea-divisora-titulos {
+    border: none;
+    /* margin-top: 2vh; */
+    margin-bottom: 2vh;
+    height: 5px;
+    background-color: #657150;
+    width: 50%;
+}
+
