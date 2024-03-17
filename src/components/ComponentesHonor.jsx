@@ -14,6 +14,7 @@ const ComponenteHonor = () => {
                     <h4 className='textos-cursiva' >Melani Ubence Flores</h4>
                     <h4 className='textos-cursiva' >Nayeli Fragoso Zarco</h4>
                     <h4 className='textos-cursiva' >Noemi Martínez Zarco</h4>
+                    <h4 className='textos-cursiva' >Karla Rebeca Cruz Hernandez</h4>
                 </div>
 
                 <div className="col-md-6 col-12 space-vertical-title">

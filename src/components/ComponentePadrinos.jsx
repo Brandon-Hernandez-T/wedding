@@ -5,14 +5,14 @@ const ComponentePadrinos = () => {
         <>
             <div className='linea-divisora' />
 
-            <div className="col-md-12 col-12 space-vertical-title">
+            <div className="col-md-12 col-12 space-vertical-title space-horizontal">
                 <h1 className='text-titulo' > <strong> PADRINOS </strong> </h1>
-                <h4 className='textos-cursiva' > Su participación como padrinos de ha sido un regalo invaluable. <br />
+                <h4 className='textos-cursiva' > Su participación como padrinos ha sido un regalo invaluable. <br />
                     Su presencia y compromiso han iluminado nuestro camino hacia el matrimonio, <br />
                     y estamos agradecidos por compartir este día tan importante con ustedes. </h4>
             </div>
 
-            <div className="row">
+            <div className="row space-horizontal">
                 <div className="col-md-4 col-6 space-vertical-title">
                     <h3 className='textos-cursiva texto-nombres-novios' > Velación </h3>
                     <h4 className='textos-cursiva' >Erika Hernández Calderon</h4>
@@ -29,7 +29,7 @@ const ComponentePadrinos = () => {
                     <h3 className='textos-cursiva texto-nombres-novios' > Lazo </h3>
                     <h4 className='textos-cursiva' >Jorge Diaz Banda</h4>
                     <h4 className='textos-cursiva-simbolos' >&</h4>
-                    <h4 className='textos-cursiva' >Guadalupe Escalona</h4>
+                    <h4 className='textos-cursiva' >Guadalupe Escalona Guerrero</h4>
                 </div>
 
                 <div className="col-md-4 col-6 space-vertical-title">
@@ -40,7 +40,7 @@ const ComponentePadrinos = () => {
                 </div>
                 <div className="col-md-4 col-6 space-vertical-title">
                     <h3 className='textos-cursiva texto-nombres-novios' > Biblia y Rosario </h3>
-                    <h4 className='textos-cursiva' >Esther Zarco Ramírez</h4>
+                    <h4 className='textos-cursiva' >Ma. Esther Zarco Ramírez</h4>
                     <h4 className='textos-cursiva-simbolos' >&</h4>
                     <h4 className='textos-cursiva' >Ma. Rosio Zarco Ramírez </h4>
                 </div>
@@ -48,7 +48,7 @@ const ComponentePadrinos = () => {
                     <h3 className='textos-cursiva texto-nombres-novios' > Cojines </h3>
                     <h4 className='textos-cursiva' >Irma Díaz Banda</h4>
                     <h4 className='textos-cursiva-simbolos' >&</h4>
-                    <h4 className='textos-cursiva' >Héctor Casares</h4>
+                    <h4 className='textos-cursiva' >Héctor Casares Martinez</h4>
                 </div>
 
                 <div className="col-md-4 col-6 space-vertical-title">

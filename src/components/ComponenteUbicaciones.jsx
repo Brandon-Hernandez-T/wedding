@@ -6,7 +6,7 @@ import { GiPartyFlags } from "react-icons/gi";
 const ComponenteUbicaciones = () => {
     return (
         <>
-            <div className="row">
+            <div className="row space-horizontal">
                 <div className="col-md-6 col-12 space-vertical-title">
                     <h1 className='textos-cursiva texto-nombres-novios space-vertical'> <BiChurch />  Ceremonia </h1>
                     <h3 className='textos-cursiva texto-nombres-novios' > Parroquia de San buenaventura </h3>
