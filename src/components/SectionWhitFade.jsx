@@ -14,7 +14,12 @@ const SectionWithFade = ({ children, isWhite }) => {
             className='row d-flex align-items-center justify-content-center text-center'
             style={isWhite ?
                 {
-                    backgroundColor: 'white'
+                    backgroundColor: 'white',
+                    backgroundImage: `url('/fondo-image_1.png')`,
+                    backgroundSize: 'cover',
+                    overflow: 'hidden',
+                    backgroundRepeat: 'no-repeat',
+                    backgroundPosition: 'center center',
                 }
                 :
                 {
