@@ -18,7 +18,7 @@
   --control-button-background: transparent;
   --control-bullet-color: #a3b9d0;
   --control-bullet-active-color: #8b9db1;
-  --loader-bar-color: #657150;
+  --loader-bar-color: #657150 !important;
   --loader-bar-height: 6px;
   --scale-out-scale: 0.85;
 }
