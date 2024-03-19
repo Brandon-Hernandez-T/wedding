@@ -55,7 +55,7 @@ const ComponentePadrinos = () => {
                     <h3 className='textos-cursiva texto-nombres-novios' > Foto de Estudio </h3>
                     <h4 className='textos-cursiva' >Ruth Martínez Zarco </h4>
                     <h4 className='textos-cursiva-simbolos' >&</h4>
-                    <h4 className='textos-cursiva' >Herver</h4>
+                    <h4 className='textos-cursiva' >Herve García Murillo</h4>
                 </div>
                 <div className="col-md-4 col-6 space-vertical-title">
                     <h3 className='textos-cursiva texto-nombres-novios' > Video </h3>

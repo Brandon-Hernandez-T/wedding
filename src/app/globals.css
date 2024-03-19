@@ -6,6 +6,21 @@
     "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
 
   --background-color: #FFFFF0;
+
+  --slider-height-percentage: 45%;
+  --slider-transition-duration: 200ms;
+  --organic-arrow-thickness: 2px;
+  --organic-arrow-border-radius: 0px;
+  --organic-arrow-height: 22px;
+  --organic-arrow-color: #fff;
+  --control-button-width: 40%;
+  --control-button-height: 25%;
+  --control-button-background: transparent;
+  --control-bullet-color: #a3b9d0;
+  --control-bullet-active-color: #8b9db1;
+  --loader-bar-color: #657150;
+  --loader-bar-height: 6px;
+  --scale-out-scale: 0.85;
 }
 
 * {

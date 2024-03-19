@@ -3,9 +3,11 @@ import React from 'react';
 /** COMPONENTES INTERNOS */
 import WeddingCountdown from '@/components/WeddingCountdown';
 import ComponenteNovios from '@/components/ComponenteNovios';
+import ComponenteSlider from '@/components/ComponenteSlider';
 import ComponentePadrinos from '@/components/ComponentePadrinos';
 import ComponentesHonor from '@/components/ComponentesHonor';
 import ComponenteUbicaciones from '@/components/ComponenteUbicaciones';
+import ComponenteRegalos from '@/components/ComponenteRegalos';
 import SectionWithFade from '@/components/SectionWhitFade';
 import { Fade, Bounce, Pop, Swing } from "react-swift-reveal";
 
@@ -40,6 +42,10 @@ const page = () => {
       <SectionWithFade>
         <ComponenteNovios />
       </SectionWithFade>
+      
+      {/* <SectionWithFade> */}
+        <ComponenteSlider />
+      {/* </SectionWithFade> */}
 
       <SectionWithFade>
         <ComponentesHonor />
@@ -47,6 +53,10 @@ const page = () => {
 
       <SectionWithFade isWhite={true} >
         <ComponenteUbicaciones />
+      </SectionWithFade>
+      
+      <SectionWithFade >
+        <ComponenteRegalos />
       </SectionWithFade>
 
       <SectionWithFade>
