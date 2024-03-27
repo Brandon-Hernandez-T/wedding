@@ -12,7 +12,7 @@ const ComponentePadrinos = () => {
                     y estamos agradecidos por compartir este día tan importante con ustedes. </h4>
             </div>
 
-            <div className="row space-horizontal">
+            <div className="row d-flex align-items-center justify-content-center text-center space-horizontal">
                 <div className="col-md-4 col-6 space-vertical-title">
                     <h3 className='textos-cursiva texto-nombres-novios' > Velación </h3>
                     <h4 className='textos-cursiva' >Erika Hernández Calderon</h4>
@@ -23,7 +23,7 @@ const ComponentePadrinos = () => {
                     <h3 className='textos-cursiva texto-nombres-novios' > Anillos </h3>
                     <h4 className='textos-cursiva' >Maru Camacho</h4>
                     <h4 className='textos-cursiva-simbolos' >&</h4>
-                    <h4 className='textos-cursiva' >Julian Paloalto</h4>
+                    <h4 className='textos-cursiva' >Julian Paloalto Matus</h4>
                 </div>
                 <div className="col-md-4 col-6 space-vertical-title">
                     <h3 className='textos-cursiva texto-nombres-novios' > Lazo </h3>
@@ -79,8 +79,6 @@ const ComponentePadrinos = () => {
                 <div className="col-md-4 col-6 space-vertical-title">
                     <h3 className='textos-cursiva texto-nombres-novios' > Mesa de Dulces</h3>
                     <h4 className='textos-cursiva' >Ruth Torres Matus</h4>
-                    <h4 className='textos-cursiva-simbolos' >&</h4>
-                    <h4 className='textos-cursiva' >Jose Rodrigo Cabrera Torres</h4>
                 </div>
             </div>
 

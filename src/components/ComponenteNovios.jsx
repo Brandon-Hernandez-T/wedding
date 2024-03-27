@@ -35,7 +35,7 @@ const ComponenteNovios = () => {
             </div>
             <div className="row space-vertical">
                 <div className='col-md-5 space-vertical d-flex justify-content-center flex-column'>
-                    <h3 className='textos-cursiva' > Jacqueline </h3>
+                    <h3 className='textos-cursiva' > Padres de la novia </h3>
                     <h2 className='textos-cursiva texto-nombres-novios' > Alejandro Díaz Banda </h2>
                     <h4 className='textos-cursiva-simbolos' >&</h4>
                     <h2 className='textos-cursiva texto-nombres-novios' > Brenda Ubence Zarco </h2>
@@ -44,7 +44,7 @@ const ComponenteNovios = () => {
                     <img src="/nuestros-padres-icono.png" alt="Imagen" style={{ width: '90%', height: 'auto', borderRadius: '50%' }} />
                 </div>
                 <div className='col-md-5 space-vertical d-flex justify-content-center flex-column'>
-                    <h3 className='textos-cursiva' > Brandon </h3>
+                    <h3 className='textos-cursiva' > Madre del novio </h3>
                     <h2 className='textos-cursiva texto-nombres-novios' > Cecilia Torres Matus </h2>
                 </div>
             </div>

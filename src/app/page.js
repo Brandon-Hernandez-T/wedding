@@ -21,8 +21,8 @@ const page = () => {
 
         <div className="col-md-7 d-flex justify-content-center align-items-center" >
           <Fade duration={1000} delay={500} distance="30px">
-            <div style={{ textAlign: 'center' }}>
-              <img src="/nombre_banner_1.png" alt="Imagen" width="100%" height="auto" />
+            <div style={{ textAlign: 'center', paddingLeft: 10, paddingRight: 10, paddingTop: 10 }} >
+              <img src="/nombre_banner_2.png" alt="Imagen" width="100%" height="auto" />
             </div>
           </Fade>
         </div>

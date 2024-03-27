@@ -5,7 +5,7 @@ import ComponenteBoton from '@/components/ComponenteBoton'
 const ComponenteRegalos = () => {
     return (
         <>
-        <div className='linea-divisora' />
+            <div className='linea-divisora' />
             <div className='col-12 space-vertical space-horizontal'>
                 <h1 className='text-titulo' > <strong> <FaGifts /> MESA DE REGALOS </strong> </h1>
                 <p className='textos-cursiva space-vertical h4' >
@@ -20,7 +20,7 @@ const ComponenteRegalos = () => {
                 </div>
                 <div className='col-md-6 space-vertical d-flex justify-content-center align-items-center'>
                     <p className='textos-cursiva space-vertical h4' >
-                        Sin embargo, queremos recordarte que tu presencia es lo más importante para nosotros, y cualquier gesto de cariño, independientemente de si viene de nuestra mesa de regalos o no, será muy valorado.
+                        Sin embargo, nos gustaría reiterar que tu presencia es lo más importante para nosotros. Si decides hacer un regalo, nuestra mesa de regalos está disponible como referencia, pero lo más importante es que compartas este día tan especial con nosotros.
                     </p>
                 </div>
             </div>
