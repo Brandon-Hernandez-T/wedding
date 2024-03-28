@@ -25,7 +25,7 @@ const ComponenteHonor = () => {
                     <h4 className='textos-cursiva' >Ignacio Ubence Flores </h4>
                     <h4 className='textos-cursiva' >Andres Torres Rosas </h4>
                     <h4 className='textos-cursiva' >Diego Bernal Silva </h4>
-                    <h4 className='textos-cursiva' >Antonio </h4>
+                    <h4 className='textos-cursiva' >Antonio Moreno Moreno </h4>
 
                 </div>
             </div>

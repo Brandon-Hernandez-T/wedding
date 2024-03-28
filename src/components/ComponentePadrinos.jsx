@@ -21,7 +21,7 @@ const ComponentePadrinos = () => {
                 </div>
                 <div className="col-md-4 col-6 space-vertical-title">
                     <h3 className='textos-cursiva texto-nombres-novios' > Anillos </h3>
-                    <h4 className='textos-cursiva' >Maru Camacho</h4>
+                    <h4 className='textos-cursiva' >Maria de los Angeles Camacho Salazar</h4>
                     <h4 className='textos-cursiva-simbolos' >&</h4>
                     <h4 className='textos-cursiva' >Julian Paloalto Matus</h4>
                 </div>
