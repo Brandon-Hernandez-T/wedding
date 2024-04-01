@@ -29,7 +29,7 @@ const page = () => {
 
         <div className="col-md-5 d-flex justify-content-center align-items-center">
           <Pop duration={1000} delay={500} distance="30px">
-            <img src="/branyjacque_banner_4.png" alt="Imagen" width="100%" height="auto" />
+            <img src="/branyjacque_banner_5.webp" alt="Imagen" width="100%" height="auto" />
           </Pop>
         </div>
 
