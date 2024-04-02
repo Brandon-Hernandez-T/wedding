@@ -10,6 +10,7 @@ const WeddingCountdown = ({ weddingDate }) => {
     useEffect(() => {
         const interval = setInterval(() => {
             setTimeRemaining(calculateTimeRemaining());
+            document.querySelector("audio").play();
         }, 1000);
 
         return () => clearInterval(interval);
@@ -51,14 +52,11 @@ const WeddingCountdown = ({ weddingDate }) => {
                 <p>Segundos</p>
             </div>
 
-            <div className="countdown-item col-md-12 col-12 space-vertical-title">
-                <audio controls autoPlay={true} loop id="playAudio" >
-                    <source src="/song_byj.wav" type="audio/wav" />
-                    Tu navegador no soporta la reproducción de audio.
-                </audio>
-                {/* <iframe src="song_byj.mp4" allow="autoplay" style={{ display: }} id="iframeAudio">
-            </iframe> */}
-            </div>
+            <audio controls autoPlay={true} loop id="playAudio" style={{ display: 'none' }} >
+                <source src="/song_byj.wav" type="audio/wav" />
+                Tu navegador no soporta la reproducción de audio.
+            </audio>
+            
         </div>
     );
 };
