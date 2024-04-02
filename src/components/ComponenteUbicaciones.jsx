@@ -2,6 +2,7 @@ import React from 'react';
 import ComponenteBotonUbicacion from '@/components/ComponenteBotonUbicacion';
 import { BiChurch } from 'react-icons/bi';
 import { GiPartyFlags } from "react-icons/gi";
+import { BsBalloonHeart } from "react-icons/bs";
 
 const ComponenteUbicaciones = () => {
     return (
@@ -24,7 +25,7 @@ const ComponenteUbicaciones = () => {
 
                 <div className="d-flex flex-column flex-md-row-reverse">
                     <div className="col-md-6 col-12">
-                        <h1 className='textos-cursiva texto-nombres-novios space-vertical'> <BiChurch />  Ceremonia Civil </h1>
+                        <h1 className='textos-cursiva texto-nombres-novios space-vertical'> <BsBalloonHeart />  Ceremonia Civil </h1>
                         <h3 className='textos-cursiva texto-nombres-novios' > Fiestas ANDASADI Garden  </h3>
                         <h4 className='textos-cursiva space-vertical-timer' >Carretera Federal Cuautla-México 400, Hacienda Las Palmas I y II, 56535 Ixtapaluca, Méx.</h4>
                         <h2 className='textos-cursiva texto-nombres-novios space-vertical-timer' > 14:30 hrs </h2>

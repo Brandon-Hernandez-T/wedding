@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import moment from 'moment';
 import { MdOutlineTimer } from "react-icons/md";
-import '../styles/ComponentCountdown.css'
+import '../styles/ComponentCountdown.css';
 
 const WeddingCountdown = ({ weddingDate }) => {
     const [timeRemaining, setTimeRemaining] = useState(calculateTimeRemaining());
@@ -10,7 +10,6 @@ const WeddingCountdown = ({ weddingDate }) => {
     useEffect(() => {
         const interval = setInterval(() => {
             setTimeRemaining(calculateTimeRemaining());
-            document.querySelector("audio").play();
         }, 1000);
 
         return () => clearInterval(interval);
@@ -52,11 +51,13 @@ const WeddingCountdown = ({ weddingDate }) => {
                 <p>Segundos</p>
             </div>
 
-            <audio controls autoPlay={true} loop id="playAudio" style={{ display: 'none' }} >
-                <source src="/song_byj.wav" type="audio/wav" />
-                Tu navegador no soporta la reproducción de audio.
-            </audio>
-            
+            <div className="countdown-item col-md-12 col-12 space-vertical-title" >
+                <audio controls autoPlay loop >
+                    <source src="/song_byj.wav" type="audio/wav" />
+                    Tu navegador no soporta la reproducción de audio.
+                </audio>
+            </div>
+
         </div>
     );
 };

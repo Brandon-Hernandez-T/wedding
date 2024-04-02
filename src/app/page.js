@@ -9,7 +9,7 @@ import ComponentesHonor from '@/components/ComponentesHonor';
 import ComponenteUbicaciones from '@/components/ComponenteUbicaciones';
 import ComponenteRegalos from '@/components/ComponenteRegalos';
 import SectionWithFade from '@/components/SectionWhitFade';
-import { Fade, Bounce, Pop, Swing } from "react-swift-reveal";
+import { Fade, Pop } from "react-swift-reveal";
 
 const page = () => {
 
@@ -42,9 +42,9 @@ const page = () => {
       <SectionWithFade>
         <ComponenteNovios />
       </SectionWithFade>
-      
+
       {/* <SectionWithFade> */}
-        <ComponenteSlider />
+      <ComponenteSlider />
       {/* </SectionWithFade> */}
 
       <SectionWithFade>
@@ -54,7 +54,7 @@ const page = () => {
       <SectionWithFade isWhite={true} >
         <ComponenteUbicaciones />
       </SectionWithFade>
-      
+
       <SectionWithFade >
         <ComponenteRegalos />
       </SectionWithFade>
