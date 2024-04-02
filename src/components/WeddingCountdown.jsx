@@ -50,6 +50,15 @@ const WeddingCountdown = ({ weddingDate }) => {
                 <span>{timeRemaining.seconds}</span>
                 <p>Segundos</p>
             </div>
+
+            <div className="countdown-item col-md-12 col-12 space-vertical-title">
+                <audio controls autoPlay={true} loop id="playAudio" >
+                    <source src="/song_byj.wav" type="audio/wav" />
+                    Tu navegador no soporta la reproducción de audio.
+                </audio>
+                {/* <iframe src="song_byj.mp4" allow="autoplay" style={{ display: }} id="iframeAudio">
+            </iframe> */}
+            </div>
         </div>
     );
 };

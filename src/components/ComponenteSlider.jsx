@@ -14,7 +14,6 @@ const ComponenteSlider = () => {
                 interval={3000}
                 cancelOnInteraction={false}
                 bullets={false}
-                cssModule={styles}
                 animation="cubeAnimation"
                 infinite
                 media={[
