@@ -9,6 +9,7 @@ import ComponentesHonor from '@/components/ComponentesHonor';
 import ComponenteUbicaciones from '@/components/ComponenteUbicaciones';
 import ComponenteRegalos from '@/components/ComponenteRegalos';
 import SectionWithFade from '@/components/SectionWhitFade';
+import ComponenteFooter from '@/components/ComponenteFooter';
 import { Fade, Pop } from "react-swift-reveal";
 
 const page = () => {
@@ -17,12 +18,12 @@ const page = () => {
 
   return (
     <div>
-      <div className="row" style={{ backgroundImage: "url('/fondo_image_3.png')", backgroundSize: 'cover', overflow: 'hidden', backgroundRepeat: 'no-repeat', backgroundPosition: 'center center', height: '100vh' }}>
+      <div className="row" style={{ backgroundImage: "url('/fondo_image_3.webp')", backgroundSize: 'cover', overflow: 'hidden', backgroundRepeat: 'no-repeat', backgroundPosition: 'center center', height: '100vh' }}>
 
         <div className="col-md-7 d-flex justify-content-center align-items-center" >
           <Fade duration={1000} delay={500} distance="30px">
             <div style={{ textAlign: 'center', paddingLeft: 10, paddingRight: 10, paddingTop: 10 }} >
-              <img src="/nombre_banner_2.png" alt="Imagen" width="100%" height="auto" />
+              <img src="/nombre_banner_2.webp" alt="Imagen" width="100%" height="auto" />
             </div>
           </Fade>
         </div>
@@ -63,6 +64,9 @@ const page = () => {
         <ComponentePadrinos />
       </SectionWithFade>
 
+      <div className='row d-flex align-items-center justify-content-center' >
+        <ComponenteFooter />
+      </div>
     </div>
   );
 };

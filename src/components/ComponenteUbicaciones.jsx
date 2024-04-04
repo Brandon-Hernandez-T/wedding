@@ -18,7 +18,7 @@ const ComponenteUbicaciones = () => {
                     <ComponenteBotonUbicacion googleMapsLink="https://maps.app.goo.gl/dM2aYZnJimEnSzX98" />
                 </div>
                 <div className="col-md-6 col-12">
-                    <img src="/parroquia_sb.jpeg" alt="Imagen" width="65%" height="auto" style={{ border: '2px solid #FFD700', borderRadius: '8px', padding: '5px' }} />
+                    <img src="/parroquia_sb.webp" alt="Imagen" width="65%" height="auto" style={{ border: '2px solid #FFD700', borderRadius: '8px', padding: '5px' }} />
                 </div>
 
                 <div className="space-vertical-title" />
@@ -46,7 +46,7 @@ const ComponenteUbicaciones = () => {
                     <ComponenteBotonUbicacion googleMapsLink="https://maps.app.goo.gl/vbnPZTg62mHr76A88" />
                 </div>
                 <div className="col-md-5 col-12">
-                    <img src="/jardin-andasadi.jpeg" alt="Imagen" width="90%" height="auto" style={{ border: '2px solid #FFD700', borderRadius: '8px', padding: '5px' }} />
+                    <img src="/jardin-andasadi.webp" alt="Imagen" width="90%" height="auto" style={{ border: '2px solid #FFD700', borderRadius: '8px', padding: '5px' }} />
                 </div>
 
             </div>

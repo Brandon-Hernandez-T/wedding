@@ -18,7 +18,7 @@ const ComponenteNovios = () => {
                     <h2 className='textos-cursiva texto-nombres-novios' > Jacqueline Díaz Ubence </h2>
                 </div>
                 <div className='col-md-2 space-vertical'>
-                    <img src="/novios-icono.png" alt="Imagen" width="90%" height="auto" />
+                    <img src="/novios-icono.webp" alt="Imagen" width="90%" height="auto" />
                 </div>
                 <div className='col-md-5 space-vertical d-flex justify-content-center flex-column'>
                     <h3 className='textos-cursiva' > Novio </h3>
@@ -41,7 +41,7 @@ const ComponenteNovios = () => {
                     <h2 className='textos-cursiva texto-nombres-novios' > Brenda Ubence Zarco </h2>
                 </div>
                 <div className='col-md-2 space-vertical'>
-                    <img src="/nuestros-padres-icono.png" alt="Imagen" style={{ width: '90%', height: 'auto', borderRadius: '50%' }} />
+                    <img src="/nuestros-padres-icono.webp" alt="Imagen" style={{ width: '90%', height: 'auto', borderRadius: '50%' }} />
                 </div>
                 <div className='col-md-5 space-vertical d-flex justify-content-center flex-column'>
                     <h3 className='textos-cursiva' > Madre del novio </h3>

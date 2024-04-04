@@ -15,7 +15,7 @@ const SectionWithFade = ({ children, isWhite }) => {
             style={isWhite ?
                 {
                     backgroundColor: 'white',
-                    backgroundImage: `url('/fondo-image_1.png')`,
+                    backgroundImage: `url('/fondo-image_1.webp')`,
                     backgroundSize: 'cover',
                     overflow: 'hidden',
                     backgroundRepeat: 'no-repeat',
@@ -23,7 +23,7 @@ const SectionWithFade = ({ children, isWhite }) => {
                 }
                 :
                 {
-                    backgroundImage: `url('/fondo_image_2.png')`,
+                    backgroundImage: `url('/fondo_image_2.webp')`,
                     backgroundSize: 'cover',
                     overflow: 'hidden',
                     backgroundRepeat: 'no-repeat',
