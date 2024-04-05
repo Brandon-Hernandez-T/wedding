@@ -54,7 +54,7 @@ const WeddingCountdown = ({ weddingDate }) => {
             <div className="countdown-item col-md-12 col-12 space-vertical-title" >
                 <audio controls autoPlay loop >
                     {/* <source src="/song_byj.wav" type="audio/wav" /> */}
-                    <source src="https://www.dropbox.com/scl/fi/gc90h35wgikb5gnfshckb/song_byj.wav?rlkey=bh71psi6ekfz62b7msk5enysy&dl=1" type="audio/wav" />
+                    <source src="https://www.dropbox.com/scl/fi/gc90h35wgikb5gnfshckb/song_byj.wav?rlkey=bh71psi6ekfz62b7msk5enysy&raw=1" type="audio/wav" />
                     Tu navegador no soporta la reproducción de audio.
                 </audio>
             </div>
