@@ -1,8 +1,9 @@
 import React from 'react';
 import ComponenteBotonUbicacion from '@/components/ComponenteBotonUbicacion';
 import { BiChurch } from 'react-icons/bi';
-import { GiPartyFlags } from "react-icons/gi";
+import { GiPartyFlags, GiTie, GiAmpleDress } from "react-icons/gi";
 import { BsBalloonHeart } from "react-icons/bs";
+import { FaUserTie } from "react-icons/fa6";
 
 const ComponenteUbicaciones = () => {
     return (
@@ -49,6 +50,14 @@ const ComponenteUbicaciones = () => {
                     <img src="/jardin-andasadi.webp" alt="Imagen" width="90%" height="auto" style={{ border: '2px solid #FFD700', borderRadius: '8px', padding: '5px' }} />
                 </div>
 
+            </div>
+            <div className="row space-horizontal space-vertical">
+                <div className="col-12">
+                    <h1 className='textos-cursiva texto-nombres-novios space-vertical'> <GiAmpleDress /> Código de vestimenta <GiTie />  </h1>
+                    <h4 className='textos-cursiva texto-nombres-novios space-vertical-timer' >Semiformal/Cocktail.</h4>
+                    <img src="/codigo-vestimenta.webp" alt="Imagen" className="img-fluid" />
+                    <h3 className='textos-cursiva texto-nombres-novios space-vertical-timer' > • NO blanco y verde. <br /> • SI colores claros. </h3>
+                </div>
             </div>
             <div className="space-vertical-title" />
         </>
