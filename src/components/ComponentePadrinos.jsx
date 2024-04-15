@@ -17,7 +17,7 @@ const ComponentePadrinos = () => {
                     <h3 className='textos-cursiva texto-nombres-novios' > Velación </h3>
                     <h4 className='textos-cursiva' >Erika Hernández Calderon</h4>
                     <h4 className='textos-cursiva-simbolos' >&</h4>
-                    <h4 className='textos-cursiva' >Carlos Alberto Cruz Hernandez</h4>
+                    <h4 className='textos-cursiva' >Carlos Alberto Cruz Bautista</h4>
                 </div>
                 <div className="col-md-4 col-6 space-vertical-title">
                     <h3 className='textos-cursiva texto-nombres-novios' > Anillos </h3>
