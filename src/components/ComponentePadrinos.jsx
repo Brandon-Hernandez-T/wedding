@@ -36,7 +36,7 @@ const ComponentePadrinos = () => {
                     <h3 className='textos-cursiva texto-nombres-novios' > Arras </h3>
                     <h4 className='textos-cursiva' >Catalina Mercadillo Reyes</h4>
                     <h4 className='textos-cursiva-simbolos' >&</h4>
-                    <h4 className='textos-cursiva' >Luz del Carmen Mercadillo Reyes</h4>
+                    <h4 className='textos-cursiva' >María del Carmen Mercadillo Reyes</h4>
                 </div>
                 <div className="col-md-4 col-6 space-vertical-title">
                     <h3 className='textos-cursiva texto-nombres-novios' > Biblia y Rosario </h3>
