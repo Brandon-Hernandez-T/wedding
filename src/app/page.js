@@ -14,7 +14,7 @@ import { Fade, Pop } from "react-swift-reveal";
 
 const page = () => {
 
-  const weddingDate = '2024-09-22T13:00:00';
+  const weddingDate = '2024-09-22T09:00:00';
 
   return (
     <div>
